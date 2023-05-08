@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:gravity="center"
+    android:orientation="vertical"
+   android:id="@+id/mithila"
+
+    tools:context=".MainActivity">
+
+
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:columnCount="3"
+        android:rowCount="3"
+
+        >
+
+        <Button
+            android:onClick="press"
+            android:id="@+id/btn1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/red"
+            android:hint="X/O?"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+
+
+        <Button
+            android:onClick="press"
+            android:id="@+id/btn2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:backgroundTint="@color/red"
+            android:hint="X/O?"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <Button   android:onClick="press"
+            android:id="@+id/btn3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:backgroundTint="@color/red"
+            android:hint="X/O?"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            />
+
+        <Button   android:onClick="press"
+            android:id="@+id/btn4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/red"
+            android:hint="X/O?"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btn5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:backgroundTint="@color/red"
+            android:hint="X/O?"
+            android:onClick="press"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <Button   android:onClick="press"
+            android:id="@+id/btn6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:backgroundTint="@color/red"
+            android:hint="X/O?"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <Button   android:onClick="press"
+            android:id="@+id/btn7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/red"
+            android:hint="X/O?"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:onClick="press"
+            android:id="@+id/btn8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:backgroundTint="@color/red"
+            android:hint="X/O?"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <Button
+
+android:onClick="press"
+            android:id="@+id/btn9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:backgroundTint="@color/red"
+            android:hint="X/O?"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+
+    </GridLayout>
+
+    <Button
+        android:id="@+id/start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:backgroundTint="@color/cardview_dark_background"
+        android:hint="Start Game"
+        android:textColorHint="@color/white"
+        android:layout_marginTop="50sp"
+
+        />
+
+    <TextView
+        android:id="@+id/winner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:textColor="@color/teal_200"
+
+
+        android:textStyle="italic"
+        android:textSize="50dp"
+
+        />
+
+
+
+</LinearLayout>
+
+
+
+
+
+
+
+
+
